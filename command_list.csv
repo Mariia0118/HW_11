@@ -1,0 +1,63 @@
+    1  curl --request POST \\n  --url 'https://api.trello.com/1/boards/?name=newname&key=c3d45e2bb75cadd76531c62918eef375&token=ATTA60f89c76ad8be895660e165aedf0a88f7ea46b10c6dea4ddba780a12a8e1ba8554065F3C'
+    2  help
+    3  man
+    4  $ sudo port install git
+    5  git --version\n
+    6  git --version\n
+    7  which git\n
+    8  mkdir git_homework\ncd git_homework\n
+    9  history -c && rm ~/.bash_history\n
+   10  git config --global user.name "Твоє_Імʼя"\ngit config --global user.email "твоя_пошта@gmail.com"\n
+   11  git config --list\n
+   12  git clone https://github.com/Mariia0118/HW_10.git\n
+   13  cd Desktop\n
+   14  git clone https://github.com/Mariia0118/HW_10.git\n
+   15  cd HW_10\n
+   16  touch text_ignore.txt\n
+   17  open .gitignore\n
+   18  open .gitignore\ngit status\n
+   19  git add .\n
+   20  git commit -m "Add .gitignore and ignore text_ignore.txt"\n
+   21  git status\n
+   22  git push
+   23  git push origin main\n
+   24  cd ~/git_homework/HW_10\ngit status\n
+   25  git add .\ngit commit -m "Your commit message"\n
+   26  git push origin main\n
+   27  git config --global user.name "Mariia0118"\ngit config --global user.email "mariar19990118@gmail.com"\ngit config --global credential.helper osxkeychain\n
+   28  git push origin main\nMariia0118\n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\n\n\n
+   29  eval "$(ssh-agent -s)"\nssh-add -K ~/.ssh/id_ed25519\n
+   30  ssh-keygen -t ed25519 -C "mariar19990118@gmail.com"\n
+   31  rm ~/eval* \n
+   32  ssh-keygen -t ed25519 -C "mariar19990118@gmail.com"\n
+   33  eval "$(ssh-agent -s)"\nssh-add --apple-use-keychain ~/.ssh/id_ed25519\n
+   34  cat ~/.ssh/id_ed25519.pub\n
+   35  git --version\n
+   36  git config --global user.name "Mariia0118"\ngit config --global user.email "mariar19990118@gmail.com"\ngit config --global credential.helper osxkeychain\n
+   37  git config --list\n
+   38  mkdir git_homework\ncd git_homework\n
+   39  cd ~/git_homework\ngit clone https://github.com/Mariia0118/HW_11.git\ncd HW_11\n
+   40  touch text_ignore.txt\n
+   41  open .gitignore\n
+   42  git status\n
+   43  git add .\n
+   44  git commit -m "Add .gitignore and ignore text_ignore.txt"\n
+   45  git status\n
+   46  touch main_test.txt\n
+   47  git add .\n
+   48  git commit -m "Add main_test.txt"\n
+   49  git status\n
+   50  git checkout -b develop\n
+   51  touch develop_test.txt\n
+   52  git add .\ngit commit -m "Add develop_test.txt"\n
+   53  open develop_test.txt\n
+   54  git status\ngit add .\ngit commit -m "Update develop_test.txt with a small change"\n
+   55  git checkout main\n
+   56  git merge develop\n
+   57  git log --oneline --graph --all\n
+   58  git add .\n
+   59  git commit -m "Prepare for push"\n
+   60  git push origin main\n
+   61  Mariia0118\n
+   62  git push origin main\n
+   63  history 0 > command_list.csv
